@@ -1,0 +1,25 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+frontend/build/
+backend/dist/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Docker
+**/db_data/
+*.pid
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# GitHub Actions
+.github/workflows/.env
