@@ -24,7 +24,7 @@ function App() {
 
   return (
     <section className="section has-text-centered">
-      <h1 className="title">React → Nginx → Express → MySQL Test</h1>
+      <h1 className="title">React → Nginx → Express → MySQL → Test Docker </h1>
       <div className="content">
         <p><strong>API Status:</strong> {apiMsg || "Loading..."}</p>
         <p><strong>DB Status:</strong> {dbMsg || "Loading..."}</p>
