@@ -52,5 +52,8 @@ iot-fullstack/
     phpMyAdmin: http://<ip-server>:12345
 
 9. Cek Log Kalau ada masalah:
+
+10. Docker ready & ready with Development 
+![alt text](https://github.com/permana-ang/iot-fullstack/blob/master/docker%20ps.png?raw=true) 
     docker compose logs -f backend
     docker compose logs -f frontend
